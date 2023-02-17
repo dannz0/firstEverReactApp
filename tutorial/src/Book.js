@@ -1,7 +1,7 @@
 function Book(props) {
   const { author, title, img, children, getBook, id, order } = props;
 
-  console.log(props, order);
+  // console.log(props, order);
   return (
     <article className='book'>
       <p className='order'>{`#${order}`}</p>
